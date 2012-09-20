@@ -242,7 +242,7 @@ def parseFormParams(params):
   pD = {}
   extraParams = {}
   pinDates = False
-  print 'Found it!!!',params
+
   for name in params:
     if name.find( "_" ) != 0:
       continue
